@@ -12,7 +12,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  *
  */
 @SpringBootApplication
-@ServletComponentScan //在springBoot启动时会扫描@WebServlet，并将该类实例化
+@ServletComponentScan //在springBoot启动时会扫描@WebServlet，并将该类实例化a
 public class App {
 
 	public static void main(String[] args) {
