@@ -12,12 +12,12 @@ import com.bjsxt.servlet.SecondServlet;
  *
  *
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class App2 {
 
-	public static void main(String[] args) {
-		SpringApplication.run(App2.class, args);
-	}
+//	public static void main(String[] args) {
+//		SpringApplication.run(App2.class, args);
+//	}
 	
 	@Bean
 	public ServletRegistrationBean getServletRegistrationBean(){
